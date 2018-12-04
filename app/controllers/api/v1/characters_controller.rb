@@ -7,10 +7,15 @@ class Api::V1::CharactersController < ApplicationController
     render json: Character.find(params[:id])
   end
 
+  def create
+    character = Character.create(character_params)
+    render json: character
+  end
+
   private
 
   def character_params
-    params.require().permit(:name, :image_url, :likes, :description, :movie_id, :quote, :abilities, :species, :personality)
+    params.require(:character).permit(:name, :image_url, :likes, :description, :movie_id, :quote, :abilities, :species, :personality)
   end
 
 end
