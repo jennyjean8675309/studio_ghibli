@@ -11,7 +11,6 @@ Movie.create(name: 'Spirited Away')
 Movie.create(name: 'Nausicaä')
 Movie.create(name: 'Ponyo')
 Movie.create(name: 'My Neighbor Totoro')
-Movie.create(name: '')
 Movie.create(name: 'Castle in the Sky')
 Movie.create(name: 'KiKis Delivery Service')
 Movie.create(name: 'Whisper of the Heart')
@@ -38,31 +37,12 @@ Character.create(name: 'Sōsuke', image_url: 'https://media1.tenor.com/images/2e
 
 Character.create(name: 'Totoro', image_url: 'https://media.giphy.com/media/IRna46BPHozja/giphy.gif', likes: 0, description: "Totoro is the title tetartagonist and forest spirit that lives in the largest camphor tree in a small village. He is featured in Studio Ghibli's film My Neighbor Totoro.", movie_id: 4, quote: 'N/A', abilities: 'They seem to have magical abilities and at least some control over plants.', species: 'Totoro (Forest Spirit)', personality: "They're known to be friendly towards children and have also been described as being 'Keepers of the Forest'.")
 
-Character.create(name: 'Satsuki Kusakabe', image_url: '', likes: 0, description: 'Satsuki (also known as Satsuko) is the second protagonist of My Neighbor Totoro. She is the older sister of Mei in My Neighbor Totoro.', movie_id: 4, quote: 'Come out, come out, wherever you are!', abilities: 'N/A', species: 'Human', personality: 'Satsuki likes to think of herself as grown-up and caring for her sister. She is very lively, although not quite as lively as Mei. Satsuki is a good sister on the whole and looks after Mei to the best of her ability despite being upset about their ill mother. She is also very kind and responsible overall.')
+Character.create(name: 'Satsuki Kusakabe', image_url: 'https://i.gifer.com/2ICo.gif', likes: 0, description: 'Satsuki (also known as Satsuko) is the second protagonist of My Neighbor Totoro. She is the older sister of Mei in My Neighbor Totoro.', movie_id: 4, quote: 'Come out, come out, wherever you are!', abilities: 'N/A', species: 'Human', personality: 'Satsuki likes to think of herself as grown-up and caring for her sister. She is very lively, although not quite as lively as Mei. Satsuki is a good sister on the whole and looks after Mei to the best of her ability despite being upset about their ill mother. She is also very kind and responsible overall.')
 
-Character.create(name: 'Mei Kusakabe', image_url: '', likes: 0, description: 'Mei Kusakabe (草壁 メイ, Kusakabe Mei) is the four-year-old protagonist little sister of Satsuki in My Neighbor Totoro and daughter of Tatsuo Kusakabe and Yasuko Kusakabe.', movie_id: 4, quote: "You're Totoro!", abilities: 'N/A', species: 'Human', personality: 'Mei is really cute, stubborn, caring, and incredibly curious.')
-
-
-
-
-
-
-
-
-
-
-
+Character.create(name: 'Mei Kusakabe', image_url: 'https://media.giphy.com/media/mE9gpjqvcai4M/giphy.gif', likes: 0, description: 'Mei Kusakabe (草壁 メイ, Kusakabe Mei) is the four-year-old protagonist little sister of Satsuki in My Neighbor Totoro and daughter of Tatsuo Kusakabe and Yasuko Kusakabe.', movie_id: 4, quote: "You're Totoro!", abilities: 'N/A', species: 'Human', personality: 'Mei is really cute, stubborn, caring, and incredibly curious.')
 
 Character.create(name: 'Sophie Hatter', image_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxaXiM6m4uHIHvfKC-chRzdHMKgMZmZSZjZ2WisjHi7cTdOCPH', likes: 0, description: 'Sophies appearance in the movie depicts her as a young innocent looking girl with brown eyes and long brown hair, which she wears in a plait down her back.', movie_id: 10, quote: 'I hope you burn your bacon.', abilities: 'Turns into a 90 years old woman', species: 'Witch of the East', personality: 'Though Sophie is initially reserved and lacking confidence, she demonstrates herself to be a strong-minded individual after she is transformed into an old woman, becoming less afraid of what others think of her. Dutiful, kind, and considerate, Sophie also has a tendency to be impulsive in her actions and often feels guilty when she does something wrong, though her attempts to rectify matters are usually disastrous. She also is very compassionate and tries to help others, no matter who they are, going so far as taking the Witch of the Waste under her protection.')
 
 Character.create(name: 'Howl Jenkins Pendragon', image_url: 'http://img.inmywordz.com/uploads/20170327101205_97.gif', likes: 0, description: 'Howl has shoulder-length straight light blonde hair, light blue eyes, and a pale complexion. He is tall and slender.', movie_id: 10, quote: 'Sorry, Ive had enough of running away, Sophie. Now Ive got something I want to protect. Its you.', abilities: 'Can change into different animals', species: 'Wizard', personality: 'Howl has a kind, generous personality. He allowed Michael and Sophie to live with him, and is very forgiving of their mistakes. He also gave Calcifer his heart when Calcifer was a dying falling star. His good traits, however, are masked by his more negative traits, as well as deliberate "blackening of his name", so very few people know of them. He hates to quarrel, and will "slither out" of situations he doesnt want to be in. He hates to be pinned down to anything, and is quite cowardly.')
 
 Character.create(name: 'Markl', image_url: '', likes: 0, description: 'He is short and wears a green vest.', movie_id: 10, quote: 'I cant remember the last time we had a real breakfast!', abilities: 'Turns into an old man wizard', species: 'wizard', personality: 'Most of his time is spent on shopping for food with Sophie, cooking, and other chores such as laundry.')
-
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
-Character.create(name: '', image_url: '', likes: 0, description: '', movie_id: , quote: '', abilities: '', species: '', personality: '')
