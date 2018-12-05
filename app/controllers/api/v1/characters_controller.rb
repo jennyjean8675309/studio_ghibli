@@ -11,6 +11,11 @@ class Api::V1::CharactersController < ApplicationController
     character = Character.create(character_params)
     render json: character
   end
+  #
+  def update
+    Character.find(params[:id]).update(character_params)
+    render json: Character.find(params[:id])
+  end
 
   def destroy
     character = Character.find(params[:id])
