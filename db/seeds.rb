@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Movie.destroy_all
+Character.destroy_all
+Comment.destroy_all
+
 #Movies
 Movie.create(name: 'Spirited Away')
 Movie.create(name: 'Nausicaä')
@@ -46,3 +50,10 @@ Character.create(name: 'Sophie Hatter', image_url: 'https://encrypted-tbn0.gstat
 Character.create(name: 'Howl Jenkins Pendragon', image_url: 'http://img.inmywordz.com/uploads/20170327101205_97.gif', likes: 0, description: 'Howl has shoulder-length straight light blonde hair, light blue eyes, and a pale complexion. He is tall and slender.', movie_id: 9, quote: 'Sorry, Ive had enough of running away, Sophie. Now Ive got something I want to protect. Its you.', abilities: 'Can change into different animals', species: 'Wizard', personality: 'Howl has a kind, generous personality. He allowed Michael and Sophie to live with him, and is very forgiving of their mistakes. He also gave Calcifer his heart when Calcifer was a dying falling star. His good traits, however, are masked by his more negative traits, as well as deliberate "blackening of his name", so very few people know of them. He hates to quarrel, and will "slither out" of situations he doesnt want to be in. He hates to be pinned down to anything, and is quite cowardly.')
 
 Character.create(name: 'Markl', image_url: '', likes: 0, description: 'He is short and wears a green vest.', movie_id: 9, quote: 'I cant remember the last time we had a real breakfast!', abilities: 'Turns into an old man wizard', species: 'wizard', personality: 'Most of his time is spent on shopping for food with Sophie, cooking, and other chores such as laundry.')
+
+#Comments
+Comment.create(character_id: 7, content: "Ponyo is so sweet! She's my favorite Studio Ghibli character.", username: 'jennyjean')
+Comment.create(character_id: 7, content: "Ponyo and Sosuke's friendship is so innocent and pure.", username: 'jennyjean')
+Comment.create(character_id: 7, content: "I'd love to see more Demi-god character-types in these films.", username: 'frank')
+Comment.create(character_id: 7, content: "I love how the illustrators show Ponyo's metamorphosis!", username: 'joe123')
+Comment.create(character_id: 7, content: 'Ponyo is the most endearing character.', username: 'jennyjean')
