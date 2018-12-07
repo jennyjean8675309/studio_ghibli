@@ -35,6 +35,4 @@ Deployment
 
 Credits
 
-Flatiron School
-Caroline Solee Lee
-Jennifer Ingram
+Flatiron School/Caroline Solee Lee/Jennifer Ingram
